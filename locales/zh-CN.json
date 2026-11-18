@@ -1,0 +1,77 @@
+{
+  "plugins": {
+    "navigator": {
+      "name": "导航器",
+      "shortcuts": "快捷方式",
+      "recent": "最近文件",
+      "tags": "标签",
+      "untagged": "无标签",
+      "properties": "属性",
+      "moreValues": "还有 {count} 个",
+      "back": "返回",
+      "search": "搜索此列表",
+      "searchPlaceholder": "名称或 #标签",
+      "deep": "包含子文件夹",
+      "new": "新建",
+      "collapse": "全部折叠",
+      "empty": "这里什么都没有",
+      "noMatches": "没有匹配项",
+      "failed": "导航器无法完成此操作",
+      "tagged": "为 {count} 篇笔记添加 #{tag}",
+      "sort": {
+        "title": "排序",
+        "modified": "修改日期",
+        "created": "创建日期",
+        "name": "名称",
+        "newest": "最新优先",
+        "oldest": "最早优先",
+        "az": "A 到 Z",
+        "za": "Z 到 A"
+      },
+      "groups": {
+        "pinned": "已置顶",
+        "today": "今天",
+        "yesterday": "昨天",
+        "week": "过去 7 天",
+        "month": "过去 30 天"
+      },
+      "menu": {
+        "pin": "置顶",
+        "unpin": "取消置顶",
+        "addShortcut": "添加到快捷方式",
+        "removeShortcut": "从快捷方式移除",
+        "look": "颜色和图标…",
+        "paste": "粘贴"
+      },
+      "look": {
+        "title": "{name} 的颜色和图标",
+        "description": "它在导航器中的外观，随工作区保存。",
+        "color": "颜色",
+        "custom": "其他颜色",
+        "icon": "图标",
+        "iconHelp": "Iconify 图标名称，例如 i-lucide-star。",
+        "reset": "重置",
+        "done": "完成"
+      },
+      "commands": {
+        "show": "显示导航器",
+        "reveal": "导航器：定位当前文件"
+      },
+      "config": {
+        "notesOnly": "仅笔记",
+        "notesOnlyHelp": "列表和计数中不包含图片、白板等其他文件。",
+        "previewLines": "预览行数",
+        "previewLinesHelp": "名称下方显示的笔记正文行数，0 为不显示。",
+        "showTags": "显示标签",
+        "showDates": "显示日期",
+        "showThumbnails": "显示图片",
+        "showThumbnailsHelp": "图片文件本身，或笔记嵌入的第一张图片。",
+        "groupByDate": "按日期分组",
+        "groupByDateHelp": "在按日期排序的列表中显示今天、昨天、过去 7 天等分组。",
+        "recentCount": "显示的最近文件数",
+        "dualPaneWidth": "双栏宽度",
+        "dualPaneWidthHelp": "达到此像素宽度时，文件夹与其中的笔记并排显示。"
+      }
+    }
+  }
+}

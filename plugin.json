@@ -1,0 +1,32 @@
+{
+  "id": "navigator",
+  "name": "Navigator",
+  "version": "0.1.0",
+  "description": "A notes browser in two panes: folders, tags and properties on one side, their notes with previews on the other.",
+  "icon": "i-lucide-notebook-tabs",
+  "author": "CTRL Neo Studios",
+  "repository": "https://github.com/CTRL-Neo-Studios/vertex-plugin-navigator",
+  "apiVersion": 1,
+  "config": {
+    "overridable": {
+      "notesOnly": "workspace",
+      "previewLines": "workspace",
+      "showTags": "workspace",
+      "showDates": "workspace",
+      "showThumbnails": "workspace",
+      "groupByDate": "workspace",
+      "recentCount": "workspace",
+      "dualPaneWidth": "workspace"
+    },
+    "schema": [
+      {"key": "notesOnly", "type": "switch", "label": "plugins.navigator.config.notesOnly", "description": "plugins.navigator.config.notesOnlyHelp", "default": false},
+      {"key": "previewLines", "type": "number", "label": "plugins.navigator.config.previewLines", "description": "plugins.navigator.config.previewLinesHelp", "default": 2, "min": 0, "max": 3, "step": 1},
+      {"key": "showTags", "type": "switch", "label": "plugins.navigator.config.showTags", "default": true},
+      {"key": "showDates", "type": "switch", "label": "plugins.navigator.config.showDates", "default": true},
+      {"key": "showThumbnails", "type": "switch", "label": "plugins.navigator.config.showThumbnails", "description": "plugins.navigator.config.showThumbnailsHelp", "default": true},
+      {"key": "groupByDate", "type": "switch", "label": "plugins.navigator.config.groupByDate", "description": "plugins.navigator.config.groupByDateHelp", "default": true},
+      {"key": "recentCount", "type": "number", "label": "plugins.navigator.config.recentCount", "default": 5, "min": 0, "max": 30, "step": 1},
+      {"key": "dualPaneWidth", "type": "number", "label": "plugins.navigator.config.dualPaneWidth", "description": "plugins.navigator.config.dualPaneWidthHelp", "default": 560, "min": 320, "max": 2000, "step": 20}
+    ]
+  }
+}

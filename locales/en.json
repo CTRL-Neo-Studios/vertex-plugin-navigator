@@ -1,0 +1,77 @@
+{
+  "plugins": {
+    "navigator": {
+      "name": "Navigator",
+      "shortcuts": "Shortcuts",
+      "recent": "Recent files",
+      "tags": "Tags",
+      "untagged": "Untagged",
+      "properties": "Properties",
+      "moreValues": "{count} more",
+      "back": "Back",
+      "search": "Search this list",
+      "searchPlaceholder": "Name or #tag",
+      "deep": "Include subfolders",
+      "new": "New",
+      "collapse": "Collapse all",
+      "empty": "Nothing here",
+      "noMatches": "Nothing matches",
+      "failed": "The navigator couldn't do that",
+      "tagged": "Add #{tag} to {count} notes",
+      "sort": {
+        "title": "Sort",
+        "modified": "Date modified",
+        "created": "Date created",
+        "name": "Name",
+        "newest": "Newest first",
+        "oldest": "Oldest first",
+        "az": "A to Z",
+        "za": "Z to A"
+      },
+      "groups": {
+        "pinned": "Pinned",
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "week": "Previous 7 days",
+        "month": "Previous 30 days"
+      },
+      "menu": {
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "addShortcut": "Add to shortcuts",
+        "removeShortcut": "Remove from shortcuts",
+        "look": "Colour and icon…",
+        "paste": "Paste"
+      },
+      "look": {
+        "title": "Colour and icon of {name}",
+        "description": "How it looks in the navigator. Kept with the workspace.",
+        "color": "Colour",
+        "custom": "Another colour",
+        "icon": "Icon",
+        "iconHelp": "An Iconify name, like i-lucide-star.",
+        "reset": "Reset",
+        "done": "Done"
+      },
+      "commands": {
+        "show": "Show Navigator",
+        "reveal": "Navigator: Reveal the Shown File"
+      },
+      "config": {
+        "notesOnly": "Notes only",
+        "notesOnlyHelp": "Leave images, canvases and other files out of the lists and counts.",
+        "previewLines": "Preview lines",
+        "previewLinesHelp": "Lines of a note's text under its name. 0 for none.",
+        "showTags": "Show tags",
+        "showDates": "Show dates",
+        "showThumbnails": "Show pictures",
+        "showThumbnailsHelp": "An image file itself, or the first image a note embeds.",
+        "groupByDate": "Group by date",
+        "groupByDateHelp": "Today, Yesterday, Previous 7 days and so on, in a list sorted by date.",
+        "recentCount": "Recent files shown",
+        "dualPaneWidth": "Width for two panes",
+        "dualPaneWidthHelp": "From this many pixels, folders and their notes show side by side."
+      }
+    }
+  }
+}
